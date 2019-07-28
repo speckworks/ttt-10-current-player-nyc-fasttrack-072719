@@ -9,6 +9,8 @@ count = 0
     count = count+1
   end
   end
- puts count
+ if count % 2 = 0
+ puts "O's turn"
+ else  puts "X's turn"
 end
 turncount(board)
