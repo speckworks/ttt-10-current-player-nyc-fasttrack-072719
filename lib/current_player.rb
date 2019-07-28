@@ -1,4 +1,5 @@
 #current_player
+board = [" "," "," "," "," "," "," "," "," "]
 def current_player(board)
 count = 0
   board.each do |spot|
